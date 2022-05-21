@@ -332,6 +332,8 @@ class DatasetManager(object):
                 items = line.strip().split()
 
                 if len(items) == 1:
+                    if len(text)==0:
+                        print("except")
                     texts.append(text)
                     slots.append(slot)
                     intents.append(items)

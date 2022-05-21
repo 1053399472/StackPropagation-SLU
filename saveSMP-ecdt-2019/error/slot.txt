@@ -1,0 +1,542 @@
+到	B-tvchannel	B-tvchannel
+北	I-tvchannel	I-tvchannel
+京	I-tvchannel	I-tvchannel
+的	E-tvchannel	E-tvchannel
+火	B-category	B-tvchannel
+车	E-category	I-tvchannel
+班	O	I-tvchannel
+次	O	E-tvchannel
+
+哦	O	B-dishName
+，	B-dishName	I-dishName
+听	I-dishName	I-dishName
+新	E-dishName	E-dishName
+闻	O	O
+。	O	O
+
+读	B-tvchannel	O
+书	I-tvchannel	O
+频	I-tvchannel	O
+道	E-tvchannel	O
+上	B-datetime_date	B-datetime_date
+个	I-datetime_date	I-datetime_date
+星	I-datetime_date	I-datetime_date
+期	I-datetime_date	E-datetime_date
+五	E-datetime_date	B-datetime_time
+有	O	E-datetime_time
+播	O	O
+放	O	O
+新	B-name	B-name
+闻	I-name	I-name
+联	I-name	I-name
+播	E-name	E-name
+吗	O	O
+
+浙	O	O
+江	O	O
+台	B-theatre	O
+
+西	B-name	B-area
+兰	I-name	E-area
+花	I-name	B-category
+怎	E-name	E-category
+么	O	O
+做	B-yesterday	B-tag
+？	E-yesterday	E-tag
+
+青	B-ingredient	B-dishName
+海	I-ingredient	I-dishName
+卫	E-ingredient	E-dishName
+视	O	O
+频	O	O
+道	O	O
+的	O	O
+
+把	O	B-name
+张	B-name	I-name
+玉	I-name	I-name
+娟	E-name	E-name
+
+查	B-dishName	B-name
+询	I-dishName	I-name
+恒	I-dishName	I-name
+光	E-dishName	E-name
+
+打	O	B-startLoc_city
+开	O	E-startLoc_city
+u	B-startLoc_poi	O
+c	I-startLoc_poi	O
+二	E-startLoc_poi	O
+哦	B-startLoc_city	O
+
+说	B-category	B-category
+话	E-category	E-category
+，	O	O
+给	O	O
+我	O	B-type
+搜	O	E-type
+一	O	O
+下	O	O
+
+找	O	O
+湖	O	O
+南	B-name	B-name
+卫	E-name	I-name
+视	O	E-name
+
+帮	B-author	B-dishName
+我	E-author	I-dishName
+查	B-name	I-dishName
+一	I-name	I-dishName
+下	E-name	E-dishName
+宁	O	O
+
+我	B-timeDescr	O
+想	E-timeDescr	O
+听	O	O
+歌	O	O
+曲	O	O
+传	B-scoreDescr	O
+奇	E-scoreDescr	O
+
+我	O	O
+要	B-name	B-name
+看	I-name	I-name
+免	E-name	E-name
+费	O	O
+的	O	O
+小	O	O
+说	O	O
+。	O	O
+
+打	O	O
+开	O	O
+腾	O	O
+讯	O	B-author
+头	O	E-author
+条	O	O
+新	O	O
+闻	O	O
+
+把	O	O
+侨	O	O
+天	B-media	B-name
+慧	E-media	I-name
+的	B-category	I-name
+号	E-category	I-name
+码	O	I-name
+发	O	E-name
+
+十	O	O
+月	O	O
+四	B-datetime_date	O
+号	I-datetime_date	O
+从	I-datetime_date	O
+广	E-datetime_date	O
+州	B-tvchannel	B-tvchannel
+到	I-tvchannel	I-tvchannel
+北	I-tvchannel	I-tvchannel
+京	I-tvchannel	I-tvchannel
+的	I-tvchannel	I-tvchannel
+飞	I-tvchannel	I-tvchannel
+机	I-tvchannel	I-tvchannel
+票	E-tvchannel	E-tvchannel
+多	O	O
+少	O	O
+钱	B-name	O
+
+灌	O	B-datetime_time
+阳	O	E-datetime_time
+县	O	O
+位	O	O
+置	O	O
+
+查	B-location_city	B-location_poi
+查	I-location_city	I-location_poi
+最	E-location_city	I-location_poi
+近	B-location_poi	I-location_poi
+一	I-location_poi	I-location_poi
+周	I-location_poi	I-location_poi
+C	I-location_poi	I-location_poi
+C	E-location_poi	E-location_poi
+T	O	O
+V	O	O
+-	O	O
+
+现	B-startLoc_area	B-startLoc_city
+在	E-startLoc_area	E-startLoc_city
+有	O	O
+什	B-endLoc_city	B-endLoc_city
+么	E-endLoc_city	E-endLoc_city
+好	O	O
+看	O	O
+的	O	O
+电	O	O
+
+贵	B-location_area	B-location_poi
+溪	I-location_area	I-location_poi
+至	E-location_area	E-location_poi
+泉	O	O
+州	O	O
+
+呼	O	B-content
+叫	O	I-content
+小	O	I-content
+惠	O	I-content
+
+我	O	O
+要	O	O
+听	B-datetime_time	B-datetime_date
+张	E-datetime_time	E-datetime_date
+雨	O	O
+生	B-name	B-name
+的	I-name	I-name
+歌	I-name	I-name
+。	E-name	E-name
+
+回	O	O
+放	O	O
+昨	O	O
+晚	B-artist	B-song
+的	I-artist	I-song
+焦	E-artist	I-song
+点	O	I-song
+访	O	E-song
+谈	O	O
+
+感	O	O
+冒	O	O
+注	O	O
+意	O	O
+什	O	O
+么	S-popularity	O
+？	O	O
+
+做	O	O
+红	O	O
+烧	O	O
+肉	B-category	B-song
+要	E-category	I-song
+哪	O	E-song
+些	O	O
+
+完	O	O
+毕	O	O
+用	O	O
+英	B-category	B-category
+文	E-category	E-category
+怎	O	O
+么	O	O
+说	B-name	B-name
+
+一	O	O
+千	O	O
+五	B-name	B-name
+英	I-name	I-name
+语	I-name	I-name
+怎	I-name	I-name
+么	I-name	I-name
+说	I-name	E-name
+
+打	O	B-name
+开	O	I-name
+音	B-name	I-name
+乐	E-name	E-name
+播	O	O
+放	O	O
+
+翻	B-datetime_date	B-datetime_date
+译	I-datetime_date	I-datetime_date
+光	I-datetime_date	I-datetime_date
+大	I-datetime_date	I-datetime_date
+银	E-datetime_date	I-datetime_date
+行	B-name	I-datetime_date
+
+甲	O	O
+型	O	O
+肝	B-category	B-category
+炎	E-category	E-category
+。	O	O
+
+明	O	O
+天	O	O
+去	O	O
+南	B-artist	B-song
+昌	I-artist	I-song
+的	E-artist	E-song
+航	O	O
+班	O	O
+。	O	O
+
+小	O	O
+鸡	B-name	B-name
+炖	I-name	I-name
+蘑	I-name	I-name
+菇	I-name	I-name
+的	I-name	I-name
+做	E-name	I-name
+法	O	E-name
+
+哦	B-name	B-name
+，	I-name	I-name
+中	I-name	I-name
+超	E-name	I-name
+比	O	I-name
+赛	O	E-name
+
+2	B-keyword	O
+0	I-keyword	O
+1	E-keyword	S-ingredient
+
+帮	B-startLoc_city	B-startLoc_city
+我	E-startLoc_city	E-startLoc_city
+找	O	O
+到	B-endLoc_city	B-endLoc_city
+去	I-endLoc_city	E-endLoc_city
+安	I-endLoc_city	O
+徽	E-endLoc_city	O
+黄	O	O
+山	O	O
+的	O	O
+路	O	O
+
+咱	B-name	O
+们	I-name	O
+结	I-name	B-datetime_time
+婚	I-name	E-datetime_time
+吧	E-name	O
+什	O	O
+么	O	O
+时	O	O
+候	O	O
+播	O	O
+出	O	O
+
+查	O	O
+看	O	O
+短	O	O
+消	O	O
+息	O	O
+
+让	O	B-dishName
+我	O	I-dishName
+猜	O	I-dishName
+个	O	I-dishName
+谜	B-dishName	I-dishName
+语	E-dishName	E-dishName
+。	O	O
+
+给	O	O
+王	B-name	B-name
+帅	E-name	E-name
+发	O	O
+个	O	O
+短	O	O
+信	O	O
+说	O	O
+他	O	B-content
+让	B-content	I-content
+他	I-content	I-content
+起	I-content	I-content
+来	I-content	I-content
+尿	I-content	I-content
+尿	E-content	E-content
+
+打	O	O
+开	O	O
+4	O	O
+3	O	O
+9	O	O
+9	O	B-timeDescr
+小	O	E-timeDescr
+游	O	O
+戏	O	O
+
+板	O	O
+栗	O	O
+怎	B-name	B-name
+么	I-name	I-name
+煮	I-name	E-name
+？	I-name	I-code
+
+蒜	O	O
+茄	O	O
+子	O	B-name
+怎	O	I-name
+么	O	I-name
+做	O	E-name
+
+青	O	O
+瓷	B-tvchannel	B-tvchannel
+电	I-tvchannel	I-tvchannel
+视	I-tvchannel	I-tvchannel
+剧	I-tvchannel	I-tvchannel
+
+给	O	O
+晓	B-name	B-name
+琴	E-name	E-name
+发	O	O
+短	O	O
+信	O	O
+你	B-content	B-content
+在	I-content	I-content
+干	I-content	I-content
+吗	E-content	I-content
+
+来	O	B-dishName
+一	O	I-dishName
+首	S-ingredient	E-dishName
+李	O	O
+煜	O	O
+的	O	O
+词	O	O
+。	O	O
+
+呼	B-name	O
+叫	I-name	O
+徐	I-name	B-name
+媛	I-name	I-name
+
+刘	O	O
+林	B-name	O
+面	I-name	B-name
+怎	E-name	E-name
+么	O	O
+做	O	O
+啊	O	O
+
+查	O	B-dishName
+寻	O	I-dishName
+来	S-dishName	E-dishName
+宾	O	O
+到	O	O
+柳	O	O
+州	O	O
+
+打	O	O
+电	B-name	B-author
+话	I-name	E-author
+给	I-name	O
+张	I-name	O
+志	E-name	O
+
+找	B-name	B-artist
+愤	E-name	E-artist
+怒	B-category	B-category
+的	I-category	I-category
+小	E-category	E-category
+
+调	O	O
+到	O	O
+新	O	O
+疆	O	B-category
+综	O	I-category
+艺	B-category	I-category
+
+下	O	O
+载	O	O
+汉	O	O
+化	B-category	B-song
+软	E-category	I-song
+件	O	E-song
+
+我	B-name	B-name
+想	I-name	I-name
+打	I-name	I-name
+电	E-name	I-name
+
+南	O	O
+京	O	O
+到	B-datetime_date	O
+厦	E-datetime_date	O
+门	O	O
+的	O	O
+火	O	O
+车	O	O
+票	O	O
+
+我	B-keyword	O
+要	E-keyword	O
+看	O	O
+图	O	O
+文	O	O
+小	O	O
+说	O	O
+
+猜	B-name	B-name
+谜	I-name	I-name
+语	I-name	I-name
+，	I-name	E-name
+听	E-name	O
+
+沙	B-song	O
+眼	I-song	O
+。	I-song	B-song
+
+请	O	B-dishName
+帮	B-dishName	I-dishName
+我	E-dishName	E-dishName
+调	O	O
+
+从	O	O
+北	B-name	O
+海	E-name	O
+
+高	O	O
+清	O	B-dishName
+广	B-dishName	I-dishName
+东	I-dishName	I-dishName
+台	E-dishName	E-dishName
+
+凉	O	O
+菜	B-ingredient	B-dishName
+是	E-ingredient	E-dishName
+怎	O	O
+么	O	O
+做	O	O
+的	O	O
+？	O	O
+
+拌	B-keyword	B-dishName
+面	E-keyword	I-dishName
+该	O	E-dishName
+怎	O	O
+么	O	O
+做	O	O
+？	O	O
+
+做	B-name	B-author
+红	I-name	E-author
+酒	I-name	O
+怎	I-name	B-name
+么	E-name	I-name
+
+影	O	O
+视	O	O
+流	O	O
+星	O	O
+花	B-datetime_date	B-datetime_date
+园	E-datetime_date	E-datetime_date
+
+广	O	O
+州	O	O
+恒	O	B-name
+大	B-name	I-name
+的	I-name	I-name
+赛	I-name	I-name
+程	E-name	E-name
+
+给	O	B-name
+栾	O	I-name
+佳	B-name	I-name
+佳	I-name	I-name
+发	I-name	I-name
+短	E-name	E-name
+
+我	B-category	B-name
+回	E-category	I-name
+去	B-name	I-name
+看	I-name	I-name
+昨	I-name	I-name
+天	E-name	E-name
+

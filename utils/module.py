@@ -93,8 +93,10 @@ class ModelManager(nn.Module):
 
     def forward(self, text, seq_lens, n_predicts=None, forced_slot=None, forced_intent=None):
         word_tensor, _ = self.__embedding(text)
-
-        lstm_hiddens = self.__encoder(word_tensor, seq_lens)
+        try:
+            lstm_hiddens = self.__encoder(word_tensor, seq_lens)
+        except:
+            print("hhh")
         # transformer_hiddens = self.__transformer(pos_tensor, seq_lens)
         attention_hiddens = self.__attention(word_tensor, seq_lens)
         hiddens = torch.cat([attention_hiddens, lstm_hiddens], dim=1)

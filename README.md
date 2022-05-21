@@ -1,45 +1,11 @@
-# A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding
+# NOTICE
 
-This repository contains the PyTorch implementation of the paper: **A Stack-Propagation Framework with 
-Token-Level Intent Detection for Spoken Language Understanding**. If you use any source codes or the datasets included in this toolkit in your work, please cite the following paper. The bibtex are listed below:
+本仓库基于原论文作者的代码pytorch实现进行修改.利用该模型在CAIS数据集以及重新划分好的SMP数据集进行了训练。相关模型已经保存在save目录下，训练的参数同原作者保持一致。
 
-<pre>
-@article{qin2019stack,
-  title={A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding},
-  author={Qin, Libo and Che, Wanxiang and Li, Yangming and Wen, Haoyang and Liu, Ting},
-  journal={arXiv preprint arXiv:1909.02188},
-  year={2019}
-}
-</pre>
+相关结果如下：
 
-In the following, we will guide you how to use this repository step by step.
-
-## Architecture
-
-<div align=center><img src="https://github.com/LeePleased/StackPropagation-SLU/blob/master/image/0.png" 
-                   width="400" height="400" /></div>
-
-## Preparation
-
-Our code is based on PyTorch 1.1 and runnable for both windows and ubuntu server. Required python packages:
-    
-> + numpy==1.16.2
-> + tqdm==4.32.2
-> + scipy==1.2.1
-> + torch==1.1.0
-> + ordered-set==3.1.1
-
-We highly suggest you using [Anaconda](https://www.anaconda.com) to manage your python environment.
-
-## How to Run it
-
-The script **train.py** acts as a main function to the project. For reproducing the results reported in our
-paper, We suggest you the following hyper-parameter setting for ATIS dataset:
-
-        python train.py -wed 256 -ehd 256 -aod 128 
-
-Similarly, for SNIPS dataset, you can also consider the following command: 
-
-        python train.py -wed 32 -ehd 256 -aod 128
-
-Due to some stochastic factors, It's necessary to slightly tune the hyper-parameters using grid search. If you have any question, please issue the project or email [me](yangmingli@ir.hit.edu.cn) and we will reply you soon.
+| detasets | Slot(F1) | Intent(Acc) | Overall |
+| :------: |:--------:|:-----------:|:-------:|
+|   CAIS   |  87.65   |    94.57    |  84.68  |
+| SMP2019  |  78.91   |    94.44    |  72.59  |
+| SMP2020  |  82.50   |    94.03    |  76.15  |

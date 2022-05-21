@@ -1,0 +1,1222 @@
+水	O	O	LOOK_BACK
+果	O	O	LOOK_BACK
+沙	B-datetime_date	B-datetime_date	LOOK_BACK
+拉	I-datetime_date	I-datetime_date	LOOK_BACK
+怎	I-datetime_date	I-datetime_date	LOOK_BACK
+么	I-datetime_date	I-datetime_date	LOOK_BACK
+做	E-datetime_date	E-datetime_date	LOOK_BACK
+？	B-tvchannel	B-tvchannel	LOOK_BACK
+LOOK_BACK	LOOK_BACK
+
+免	O	O	SENDCONTACTS
+费	B-name	B-name	SENDCONTACTS
+频	I-name	I-name	SENDCONTACTS
+道	E-name	E-name	SENDCONTACTS
+有	O	O	SENDCONTACTS
+吗	O	O	SENDCONTACTS
+SENDCONTACTS	SENDCONTACTS
+
+能	O	O	QUERY
+帮	O	O	QUERY
+我	O	O	QUERY
+看	O	O	QUERY
+下	B-keyword	B-keyword	QUERY
+用	I-keyword	I-keyword	QUERY
+如	I-keyword	I-keyword	QUERY
+果	I-keyword	E-keyword	QUERY
+二	E-keyword	O	QUERY
+字	O	O	QUERY
+造	O	O	QUERY
+句	O	O	QUERY
+可	O	O	QUERY
+以	O	O	QUERY
+QUERY	QUERY
+
+查	O	B-dishName	QUERY
+询	O	I-dishName	QUERY
+一	B-ingredient	I-dishName	QUERY
+下	E-ingredient	E-dishName	QUERY
+讯	O	O	QUERY
+飞	O	O	QUERY
+科	O	O	QUERY
+QUERY	QUERY
+
+搜	O	O	SEND
+一	O	O	SEND
+下	O	O	SEND
+小	O	O	SEND
+说	S-name	B-name	SEND
+。	B-content	I-name	SEND
+SEND	SEND
+
+我	O	O	QUERY
+想	O	O	QUERY
+知	O	O	QUERY
+道	O	O	QUERY
+这	O	O	QUERY
+周	B-word	B-word	QUERY
+末	E-word	E-word	QUERY
+适	O	S-character	QUERY
+不	O	O	QUERY
+适	O	O	QUERY
+合	O	O	QUERY
+搬	O	O	QUERY
+家	O	O	QUERY
+QUERY	QUERY
+
+我	O	O	QUERY
+想	O	O	QUERY
+了	B-timeDescr	O	QUERY
+解	E-timeDescr	O	QUERY
+一	O	O	QUERY
+下	O	O	QUERY
+今	B-tag	B-category	QUERY
+天	E-tag	E-category	QUERY
+的	B-category	B-category	QUERY
+交	E-category	E-category	QUERY
+通	O	O	QUERY
+QUERY	QUERY
+
+从	O	O	ROUTE
+连	B-startLoc_city	B-startLoc_province	ROUTE
+云	I-startLoc_city	I-startLoc_province	ROUTE
+港	E-startLoc_city	E-startLoc_province	ROUTE
+到	O	O	ROUTE
+北	B-endLoc_city	B-endLoc_city	ROUTE
+京	E-endLoc_city	E-endLoc_city	ROUTE
+该	O	O	ROUTE
+怎	O	O	ROUTE
+么	O	O	ROUTE
+走	O	O	ROUTE
+ROUTE	ROUTE
+
+查	O	B-datetime_date	QUERY
+询	O	E-datetime_date	QUERY
+广	B-name	B-city	QUERY
+州	I-name	E-city	QUERY
+到	I-name	B-subfocus	QUERY
+北	E-name	E-subfocus	QUERY
+京	O	O	QUERY
+的	O	O	QUERY
+火	O	O	QUERY
+QUERY	QUERY
+
+查	B-位置	B-位置	CLEAN
+一	I-位置	E-位置	CLEAN
+下	E-位置	O	CLEAN
+今	O	O	CLEAN
+天	O	O	CLEAN
+合	O	O	CLEAN
+肥	O	O	CLEAN
+9	O	O	CLEAN
+5	O	O	CLEAN
+CLEAN	CLEAN
+
+开	B-datetime_date	B-datetime_date	QUERY
+心	E-datetime_date	E-datetime_date	QUERY
+大	O	O	QUERY
+冒	O	O	QUERY
+险	B-category	O	QUERY
+QUERY	QUERY
+
+放	B-ingredient	B-dishName	QUERY
+一	I-ingredient	I-dishName	QUERY
+个	E-ingredient	E-dishName	QUERY
+儿	O	O	QUERY
+童	O	O	QUERY
+国	O	O	QUERY
+学	O	O	QUERY
+QUERY	QUERY
+
+明	B-name	O	OPEN
+天	I-name	B-name	OPEN
+什	I-name	I-name	OPEN
+么	I-name	I-name	OPEN
+节	E-name	E-name	OPEN
+QUERY	OPEN
+
+中	O	O	CHANGE
+信	O	O	CHANGE
+证	O	O	NEXT
+券	O	O	NEXT
+股	O	O	NEXT
+票	O	O	NEXT
+PREVIOUS	NEXT
+
+多	B-name	B-name	OPEN
+少	I-name	I-name	OPEN
+千	I-name	I-name	OPEN
+克	I-name	I-name	OPEN
+是	E-name	I-name	OPEN
+1	O	I-name	OPEN
+磅	O	E-name	OPEN
+OPEN	OPEN
+
+搜	B-datetime_date	B-datetime_date	QUERY
+索	E-datetime_date	I-datetime_date	QUERY
+兰	O	E-datetime_date	QUERY
+陵	O	O	QUERY
+王	O	O	QUERY
+。	O	O	QUERY
+QUERY	QUERY
+
+尾	B-name	O	QUERY
+号	I-name	O	QUERY
+为	I-name	O	QUERY
+2	I-name	O	QUERY
+的	I-name	O	QUERY
+车	E-name	O	QUERY
+牌	B-datetime_date	B-datetime_date	QUERY
+号	I-datetime_date	E-datetime_date	QUERY
+今	I-datetime_date	B-datetime_time	QUERY
+天	E-datetime_date	E-datetime_time	QUERY
+限	O	O	QUERY
+不	O	B-name	QUERY
+限	O	E-name	QUERY
+行	O	O	QUERY
+QUERY	QUERY
+
+圣	B-datetime_time	B-artist	PLAY
+彼	E-datetime_time	I-artist	PLAY
+得	B-tvchannel	E-artist	PLAY
+堡	I-tvchannel	B-tvchannel	PLAY
+竞	I-tvchannel	I-tvchannel	PLAY
+技	E-tvchannel	E-tvchannel	PLAY
+明	O	O	PLAY
+天	O	O	PLAY
+上	O	O	PLAY
+午	B-name	B-song	PLAY
+的	I-name	I-song	PLAY
+对	I-name	I-song	PLAY
+手	E-name	E-song	PLAY
+QUERY	PLAY
+
+能	O	O	PLAY
+帮	O	O	PLAY
+我	B-song	B-song	PLAY
+打	I-song	I-song	PLAY
+开	I-song	E-song	PLAY
+邮	I-song	O	PLAY
+件	I-song	B-song	PLAY
+吗	E-song	E-song	PLAY
+，	O	O	PLAY
+我	O	O	PLAY
+要	O	O	PLAY
+PLAY	PLAY
+
+看	O	O	PLAY
+一	O	O	PLAY
+个	O	O	PLAY
+中	O	O	PLAY
+国	B-name	O	PLAY
+海	E-name	O	PLAY
+域	O	O	PLAY
+的	O	O	PLAY
+新	O	O	PLAY
+闻	O	O	PLAY
+PLAY	PLAY
+
+你	O	O	QUERY
+会	O	O	QUERY
+不	O	O	QUERY
+会	B-song	B-song	QUERY
+豹	E-song	E-song	QUERY
+子	O	O	QUERY
+PLAY	QUERY
+
+今	B-name	B-name	OPEN
+天	I-name	E-name	OPEN
+是	I-name	O	OPEN
+黄	E-name	O	OPEN
+LAUNCH	OPEN
+
+腐	O	O	QUERY
+乳	O	O	QUERY
+肉	O	O	QUERY
+怎	O	O	QUERY
+么	O	O	QUERY
+做	O	B-song	QUERY
+？	O	I-song	QUERY
+SEARCH	QUERY
+
+大	B-datetime_date	B-datetime_date	PLAY
+前	I-datetime_date	E-datetime_date	PLAY
+天	E-datetime_date	O	PLAY
+有	O	O	PLAY
+什	O	O	PLAY
+么	O	O	PLAY
+新	O	O	PLAY
+闻	O	O	PLAY
+PLAY	PLAY
+
+帮	O	O	DIAL
+我	O	O	DIAL
+搜	O	O	DIAL
+索	O	O	DIAL
+一	B-name	B-name	DIAL
+下	I-name	I-name	DIAL
+宜	I-name	E-name	DIAL
+春	E-name	O	DIAL
+DIAL	DIAL
+
+二	O	O	QUERY_GROUP
+十	O	O	QUERY_GROUP
+五	O	O	QUERY_GROUP
+日	B-tags	B-name	QUERY_GROUP
+去	E-tags	E-name	QUERY_GROUP
+QUERY_GROUP	QUERY_GROUP
+
+中	B-name	B-name	QUERY
+国	I-name	I-name	QUERY
+石	I-name	I-name	QUERY
+化	E-name	E-name	QUERY
+LAUNCH	QUERY
+
+中	O	O	QUERY
+超	O	O	QUERY
+比	O	O	QUERY
+赛	O	O	QUERY
+时	O	O	QUERY
+间	B-word	B-word	QUERY
+多	E-word	E-word	QUERY
+少	O	S-character	QUERY
+啊	O	O	QUERY
+？	O	O	QUERY
+QUERY	QUERY
+
+菠	O	O	PLAY
+萝	O	O	PLAY
+咕	B-province	B-province	PLAY
+老	E-province	E-province	PLAY
+肉	O	O	PLAY
+的	O	O	PLAY
+做	O	O	PLAY
+法	O	O	PLAY
+MOREPROVINCE_QUERY	PLAY
+
+百	S-content	O	TRANSLATION
+度	B-target	B-target	TRANSLATION
+浏	E-target	E-target	TRANSLATION
+览	O	O	TRANSLATION
+器	O	O	TRANSLATION
+打	O	O	TRANSLATION
+TRANSLATION	TRANSLATION
+
+想	O	O	PLAY
+唱	O	O	PLAY
+就	O	O	PLAY
+唱	O	O	PLAY
+SEARCH	PLAY
+
+我	B-datetime_time	O	QUERY
+想	E-datetime_time	O	QUERY
+了	O	O	QUERY
+解	O	O	QUERY
+地	O	O	QUERY
+产	O	B-scoreDescr	QUERY
+板	O	E-scoreDescr	QUERY
+块	O	O	QUERY
+股	B-category	B-category	QUERY
+票	I-category	I-category	QUERY
+现	E-category	E-category	QUERY
+在	O	O	QUERY
+怎	O	O	QUERY
+QUERY	QUERY
+
+我	O	O	SET_CLOCK
+想	O	O	SET_CLOCK
+看	O	O	SET_CLOCK
+看	O	O	SET_CLOCK
+1	O	O	SET_CLOCK
+9	B-时间	B-日期	SET_CLOCK
+4	E-时间	E-日期	SET_CLOCK
+5	O	O	SET_CLOCK
+SET_CLOCK	SET_CLOCK
+
+山	B-name	O	QUERY
+东	I-name	O	QUERY
+的	I-name	O	QUERY
+省	E-name	B-song	QUERY
+QUERY	QUERY
+
+开	O	O	QUERY
+启	O	O	QUERY
+通	O	O	QUERY
+讯	O	B-category	QUERY
+录	O	E-category	QUERY
+QUERY	QUERY
+
+烤	B-utensil	B-keyword	QUERY
+箱	E-utensil	E-keyword	QUERY
+怎	O	O	QUERY
+么	O	O	QUERY
+才	O	O	QUERY
+能	O	O	QUERY
+烤	O	O	QUERY
+出	O	O	QUERY
+好	O	O	QUERY
+吃	O	O	QUERY
+的	O	O	QUERY
+蒜	B-dishName	O	QUERY
+香	I-dishName	O	QUERY
+羊	I-dishName	O	QUERY
+排	E-dishName	O	QUERY
+QUERY	QUERY
+
+能	O	O	QUERY
+不	B-artist	O	QUERY
+能	I-artist	O	QUERY
+查	E-artist	O	QUERY
+询	O	O	QUERY
+我	B-song	B-name	QUERY
+们	E-song	E-name	QUERY
+的	O	O	QUERY
+PLAY	QUERY
+
+查	O	O	QUERY_GROUP
+万	O	O	QUERY_GROUP
+达	B-name	B-name	QUERY_GROUP
+集	I-name	I-name	QUERY_GROUP
+团	I-name	I-name	QUERY_GROUP
+昨	E-name	E-name	QUERY_GROUP
+PLAY	QUERY_GROUP
+
+我	B-tvchannel	B-tvchannel	PLAY
+要	I-tvchannel	I-tvchannel	PLAY
+听	E-tvchannel	E-tvchannel	PLAY
+1	O	O	PLAY
+7	B-name	B-name	PLAY
+年	I-name	I-name	PLAY
+春	E-name	E-name	PLAY
+晚	O	O	PLAY
+的	O	O	PLAY
+相	O	O	PLAY
+声	O	O	PLAY
+LOOK_BACK	PLAY
+
+查	O	B-dishName	QUERY
+找	B-dishName	I-dishName	QUERY
+光	I-dishName	I-dishName	QUERY
+年	I-dishName	I-dishName	QUERY
+之	E-dishName	E-dishName	QUERY
+外	O	O	QUERY
+这	O	O	QUERY
+首	O	O	QUERY
+歌	O	O	QUERY
+QUERY	QUERY
+
+前	O	B-name	OPEN
+列	O	I-name	OPEN
+腺	O	I-name	OPEN
+炎	O	I-name	OPEN
+该	O	E-name	OPEN
+怎	O	O	OPEN
+么	O	O	OPEN
+治	O	O	OPEN
+？	O	O	OPEN
+OPEN	OPEN
+
+羞	O	O	SEARCH
+羞	O	O	SEARCH
+的	B-song	B-artist	SEARCH
+铁	I-song	I-artist	SEARCH
+拳	I-song	E-artist	SEARCH
+在	E-song	E-song	SEARCH
+大	O	O	SEARCH
+地	O	O	SEARCH
+影	O	O	SEARCH
+SEARCH	SEARCH
+
+来	O	O	QUERY
+一	O	O	QUERY
+首	O	O	QUERY
+七	O	B-name	QUERY
+言	O	I-name	QUERY
+绝	O	I-name	QUERY
+句	O	E-name	QUERY
+。	O	O	QUERY
+DEFAULT	QUERY
+
+打	O	B-ingredient	QUERY
+开	O	I-ingredient	QUERY
+熊	B-ingredient	I-ingredient	QUERY
+猫	E-ingredient	E-ingredient	QUERY
+看	O	O	QUERY
+书	O	O	QUERY
+QUERY	QUERY
+
+美	O	O	OPEN
+女	O	O	OPEN
+啊	B-name	B-name	OPEN
+帮	I-name	I-name	OPEN
+我	I-name	I-name	OPEN
+打	E-name	E-name	OPEN
+LAUNCH	OPEN
+
+能	O	O	QUERY
+告	O	O	QUERY
+诉	O	O	QUERY
+我	B-location_city	B-name	QUERY
+里	I-location_city	I-name	QUERY
+的	I-location_city	I-name	QUERY
+笔	E-location_city	E-name	QUERY
+画	O	O	QUERY
+是	O	O	QUERY
+什	O	O	QUERY
+么	O	O	QUERY
+POSITION	QUERY
+
+查	O	O	RISERATE_QUERY
+找	O	O	RISERATE_QUERY
+健	O	O	RISERATE_QUERY
+康	O	O	RISERATE_QUERY
+软	O	O	RISERATE_QUERY
+件	B-code	B-code	RISERATE_QUERY
+RISERATE_QUERY	RISERATE_QUERY
+
+可	O	O	SEND
+不	O	O	SEND
+可	O	O	SEND
+以	O	O	SEND
+选	B-name	B-name	SEND
+择	E-name	E-name	SEND
+今	O	O	SEND
+天	B-content	O	SEND
+嫁	I-content	O	SEND
+娶	I-content	O	SEND
+SEND	SEND
+
+安	B-category	B-name	LAUNCH
+徽	E-category	I-name	LAUNCH
+的	O	I-name	LAUNCH
+省	O	E-name	LAUNCH
+会	O	O	LAUNCH
+城	O	O	LAUNCH
+市	O	O	LAUNCH
+是	O	O	LAUNCH
+不	O	O	LAUNCH
+是	O	O	LAUNCH
+SEARCH	LAUNCH
+
+北	O	B-ingredient	QUERY
+京	O	I-ingredient	QUERY
+卫	O	E-ingredient	QUERY
+视	O	O	QUERY
+的	B-ingredient	B-ingredient	QUERY
+跨	E-ingredient	E-ingredient	QUERY
+年	O	O	QUERY
+晚	O	O	QUERY
+会	O	O	QUERY
+回	O	O	QUERY
+QUERY	QUERY
+
+给	O	B-dishName	QUERY
+肥	O	E-dishName	QUERY
+老	O	O	QUERY
+发	O	O	QUERY
+信	B-dishName	O	QUERY
+息	E-dishName	B-dishName	QUERY
+QUERY	QUERY
+
+退	O	O	SET
+出	O	O	SET
+新	B-attrValue	B-attr	SET
+闻	I-attrValue	I-attr	SET
+SET	SET
+
+空	O	B-category	PLAY
+调	O	E-category	PLAY
+2	O	O	PLAY
+7	O	O	PLAY
+CLOSE	PLAY
+
+给	B-dishName	O	QUERY
+我	I-dishName	B-dishName	QUERY
+播	I-dishName	I-dishName	QUERY
+放	I-dishName	I-dishName	QUERY
+惜	E-dishName	E-dishName	QUERY
+时	O	O	QUERY
+的	O	O	QUERY
+鲁	O	O	QUERY
+迅	O	O	QUERY
+QUERY	QUERY
+
+陈	O	B-name	QUERY
+真	O	I-name	QUERY
+QUERY	QUERY
+
+你	O	O	QUERY
+知	O	O	QUERY
+不	O	O	QUERY
+知	O	O	QUERY
+道	B-name	B-name	QUERY
+1	I-name	I-name	QUERY
+9	I-name	I-name	QUERY
+4	I-name	I-name	QUERY
+5	E-name	E-name	QUERY
+QUERY_GROUP	QUERY
+
+牛	B-name	B-name	QUERY
+肉	E-name	I-name	QUERY
+QUERY	QUERY
+
+我	O	O	QUERY
+想	O	O	QUERY
+听	O	O	QUERY
+周	B-artist	B-name	QUERY
+杰	I-artist	I-name	QUERY
+伦	E-artist	I-name	QUERY
+的	O	I-name	QUERY
+菊	B-song	I-name	QUERY
+花	I-song	I-name	QUERY
+台	E-song	E-name	QUERY
+PLAY	QUERY
+
+解	B-datetime_time	S-repeat	SET
+释	I-datetime_time	B-datetime_time	SET
+词	I-datetime_time	I-datetime_time	SET
+语	E-datetime_time	E-datetime_time	SET
+高	B-attrValue	B-attrValue	SET
+兴	E-attrValue	E-attrValue	SET
+SET	SET
+
+我	S-character	O	QUERY
+要	O	O	QUERY
+听	O	O	QUERY
+陈	O	O	QUERY
+佩	O	O	QUERY
+斯	O	O	QUERY
+QUERY	QUERY
+
+1	B-keyword	B-name	QUERY
+磅	I-keyword	I-name	QUERY
+有	E-keyword	E-name	QUERY
+QUERY	QUERY
+
+百	O	O	QUERY
+家	O	O	QUERY
+姓	O	O	QUERY
+第	O	O	QUERY
+五	O	O	QUERY
+名	O	O	QUERY
+是	O	O	QUERY
+什	B-keyword	B-keyword	QUERY
+么	I-keyword	I-keyword	QUERY
+QUERY	QUERY
+
+给	B-name	B-dishName	QUERY
+我	I-name	I-dishName	QUERY
+写	I-name	I-dishName	QUERY
+封	E-name	E-dishName	QUERY
+新	O	O	QUERY
+邮	O	O	QUERY
+件	O	O	QUERY
+QUERY	QUERY
+
+煮	B-datetime_date	B-datetime_date	QUERY
+面	E-datetime_date	E-datetime_date	QUERY
+怎	B-city	B-subfocus	QUERY
+么	E-city	I-subfocus	QUERY
+做	O	O	QUERY
+？	B-subfocus	B-subfocus	QUERY
+QUERY	QUERY
+
+周	O	O	QUERY
+口	O	O	QUERY
+在	O	O	QUERY
+哪	B-actor	B-actor	QUERY
+里	I-actor	I-actor	QUERY
+QUERY	QUERY
+
+我	B-location_city	B-location_poi	POSITION
+要	E-location_city	E-location_poi	POSITION
+找	O	O	POSITION
+的	O	O	POSITION
+是	O	O	POSITION
+POSITION	POSITION
+
+从	O	O	QUERY
+北	O	O	QUERY
+海	O	O	QUERY
+到	O	O	QUERY
+东	O	O	QUERY
+莞	O	O	QUERY
+的	O	O	QUERY
+汽	O	O	QUERY
+车	B-keyword	O	QUERY
+。	I-keyword	B-keyword	QUERY
+QUERY	QUERY
+
+多	O	O	DIAL
+少	O	O	DIAL
+千	B-name	O	DIAL
+克	I-name	O	DIAL
+可	I-name	O	DIAL
+以	I-name	O	DIAL
+换	I-name	B-name	DIAL
+算	I-name	I-name	DIAL
+成	E-name	E-name	DIAL
+LAUNCH	DIAL
+
+帮	B-tvchannel	B-tvchannel	QUERY
+我	I-tvchannel	I-tvchannel	QUERY
+找	I-tvchannel	I-tvchannel	QUERY
+找	E-tvchannel	E-tvchannel	QUERY
+百	B-datetime_date	B-datetime_date	QUERY
+家	E-datetime_date	E-datetime_date	QUERY
+姓	B-datetime_time	B-datetime_time	QUERY
+QUERY	QUERY
+
+苍	B-name	B-artist	QUERY
+狼	E-name	E-artist	QUERY
+PLAY	QUERY
+
+多	B-位置	O	TURN_OFF_LIGHT
+少	I-位置	B-位置	TURN_OFF_LIGHT
+克	E-位置	E-位置	TURN_OFF_LIGHT
+等	O	O	TURN_OFF_LIGHT
+于	S-灯种	S-灯种	TURN_OFF_LIGHT
+1	O	O	TURN_OFF_LIGHT
+千	O	O	TURN_OFF_LIGHT
+克	O	O	TURN_OFF_LIGHT
+TURN_OFF_LIGHT	TURN_OFF_LIGHT
+
+搜	O	O	QUERY
+索	O	O	QUERY
+七	B-area	B-name	QUERY
+乐	E-area	I-name	QUERY
+彩	B-category	I-name	QUERY
+的	E-category	E-name	QUERY
+QUERY	QUERY
+
+搜	O	O	ROUTE
+索	O	O	ROUTE
+国	O	O	ROUTE
+外	B-subfocus	B-endLoc_poi	ROUTE
+大	E-subfocus	E-endLoc_poi	ROUTE
+QUERY	ROUTE
+
+湖	B-name	B-name	PLAY
+北	E-name	E-name	PLAY
+QUERY	PLAY
+
+我	O	O	LAUNCH
+现	O	O	LAUNCH
+在	O	O	LAUNCH
+要	O	O	LAUNCH
+发	O	O	LAUNCH
+一	B-code	B-code	LAUNCH
+条	I-code	I-code	LAUNCH
+信	I-code	E-code	LAUNCH
+息	I-code	I-code	LAUNCH
+LAUNCH	LAUNCH
+
+新	B-datetime_date	B-datetime_date	QUERY
+建	E-datetime_date	E-datetime_date	QUERY
+联	B-datetime_time	B-datetime_time	QUERY
+系	E-datetime_time	E-datetime_time	QUERY
+人	B-city	B-tvchannel	QUERY
+徐	I-city	I-tvchannel	QUERY
+大	E-city	I-tvchannel	QUERY
+雨	O	O	QUERY
+1	B-subfocus	B-name	QUERY
+5	E-subfocus	E-name	QUERY
+8	O	O	QUERY
+QUERY	QUERY
+
+翻	O	O	PLAY
+译	S-name	S-name	PLAY
+我	O	O	PLAY
+想	B-querytype	B-querytype	PLAY
+去	E-querytype	E-keyword	PLAY
+远	O	O	PLAY
+方	O	O	PLAY
+ALLINFO_FAMILY_NAMES	PLAY
+
+明	O	O	QUERY
+天	O	O	QUERY
+中	O	O	QUERY
+午	B-keyword	B-keyword	QUERY
+石	E-keyword	I-keyword	QUERY
+QUERY	QUERY
+
+你	B-region	B-room	SET
+知	E-region	I-位置	SET
+道	B-attr	I-attr	SET
+羞	E-attr	E-attr	SET
+羞	O	O	SET
+SET	SET
+
+播	O	O	QUERY
+放	B-name	O	QUERY
+小	I-name	B-name	QUERY
+品	E-name	E-name	QUERY
+吃	O	O	QUERY
+QUERY	QUERY
+
+做	O	O	PLAY
+红	O	O	PLAY
+烧	O	O	PLAY
+肉	B-actor	B-name	PLAY
+要	I-actor	I-name	PLAY
+哪	E-actor	I-name	PLAY
+些	O	I-name	PLAY
+材	B-name	I-name	PLAY
+料	I-name	I-name	PLAY
+呀	I-name	I-name	PLAY
+！	E-name	E-name	PLAY
+QUERY	PLAY
+
+帮	O	O	QUERY
+我	O	O	QUERY
+把	O	B-datetime_time	QUERY
+邮	O	E-datetime_time	QUERY
+件	O	O	QUERY
+打	O	O	QUERY
+开	O	O	QUERY
+，	O	O	QUERY
+我	O	O	QUERY
+POSITION	QUERY
+
+后	O	O	QUERY
+天	O	O	QUERY
+上	O	O	QUERY
+海	B-name	O	QUERY
+到	E-name	O	QUERY
+QUERY	QUERY
+
+我	B-tvchannel	B-tvchannel	QUERY
+想	I-tvchannel	I-tvchannel	QUERY
+查	I-tvchannel	I-tvchannel	QUERY
+看	I-tvchannel	I-tvchannel	QUERY
+未	I-tvchannel	I-tvchannel	QUERY
+读	I-tvchannel	I-tvchannel	QUERY
+邮	E-tvchannel	E-tvchannel	QUERY
+件	B-datetime_date	B-datetime_date	QUERY
+，	E-datetime_date	E-datetime_date	QUERY
+可	B-datetime_time	B-datetime_time	QUERY
+以	E-datetime_time	E-datetime_time	QUERY
+帮	O	O	QUERY
+我	O	B-category	QUERY
+把	O	E-category	QUERY
+QUERY	QUERY
+
+导	B-category	B-category	QUERY
+航	E-category	E-category	QUERY
+到	O	O	QUERY
+石	O	O	QUERY
+化	O	B-type	QUERY
+小	O	E-type	QUERY
+学	O	O	QUERY
+QUERY	QUERY
+
+中	B-datetime_date	B-datetime_date	QUERY
+小	E-datetime_date	E-datetime_date	QUERY
+3	B-tvchannel	B-datetime_time	QUERY
+0	I-tvchannel	E-datetime_time	QUERY
+0	I-tvchannel	O	QUERY
+的	E-tvchannel	O	QUERY
+收	O	O	QUERY
+盘	O	O	QUERY
+价	O	O	QUERY
+QUERY	QUERY
+
+我	O	O	ROUTE
+想	O	O	ROUTE
+听	O	O	ROUTE
+小	B-endLoc_poi	B-endLoc_city	ROUTE
+岳	I-endLoc_poi	E-endLoc_city	ROUTE
+岳	I-endLoc_poi	O	ROUTE
+的	E-endLoc_poi	O	ROUTE
+ROUTE	ROUTE
+
+中	O	O	QUERY
+超	O	O	QUERY
+比	B-category	O	QUERY
+赛	E-category	O	QUERY
+结	O	O	QUERY
+果	O	O	QUERY
+PLAY	QUERY
+
+为	O	O	QUERY
+什	O	O	QUERY
+么	O	O	QUERY
+总	O	O	QUERY
+是	O	O	QUERY
+做	O	O	QUERY
+梦	O	O	QUERY
+自	B-keyword	O	QUERY
+己	I-keyword	O	QUERY
+和	I-keyword	B-keyword	QUERY
+同	I-keyword	I-keyword	QUERY
+事	I-keyword	I-keyword	QUERY
+一	I-keyword	I-keyword	QUERY
+起	I-keyword	I-keyword	QUERY
+工	I-keyword	E-keyword	QUERY
+作	E-keyword	O	QUERY
+QUERY	QUERY
+
+万	B-位置	B-位置	TURN_OFF_LIGHT
+年	I-位置	E-位置	TURN_OFF_LIGHT
+历	E-位置	E-位置	TURN_OFF_LIGHT
+看	O	O	TURN_OFF_LIGHT
+一	O	O	TURN_OFF_LIGHT
+下	O	O	TURN_OFF_LIGHT
+TURN_OFF_LIGHT	TURN_OFF_LIGHT
+
+麻	O	O	QUERY
+烦	O	O	QUERY
+查	O	O	QUERY
+下	B-song	B-song	QUERY
+长	I-song	I-song	QUERY
+沙	I-song	I-song	QUERY
+的	E-song	E-song	QUERY
+天	O	O	QUERY
+PLAY	QUERY
+
+请	O	O	QUERY
+查	O	O	QUERY
+询	O	O	QUERY
+天	B-Src	B-Src	QUERY
+津	I-Src	E-Src	QUERY
+市	E-Src	O	QUERY
+到	O	O	QUERY
+哈	B-Dest	B-Dest	QUERY
+尔	I-Dest	I-Dest	QUERY
+滨	E-Dest	E-Dest	QUERY
+的	O	O	QUERY
+车	O	O	QUERY
+。	O	O	QUERY
+QUERY	QUERY
+
+帮	S-srcNumber	S-srcNumber	CONVERSION_WITH_NUMBER
+我	B-srcUnit	B-srcUnit	CONVERSION_WITH_NUMBER
+查	E-srcUnit	E-srcUnit	CONVERSION_WITH_NUMBER
+看	O	O	CONVERSION_WITH_NUMBER
+羞	O	O	CONVERSION_WITH_NUMBER
+羞	O	O	CONVERSION_WITH_NUMBER
+的	O	O	CONVERSION_WITH_NUMBER
+铁	O	O	CONVERSION_WITH_NUMBER
+拳	O	O	CONVERSION_WITH_NUMBER
+评	O	S-destUnit	CONVERSION_WITH_NUMBER
+分	S-destUnit	O	CONVERSION_WITH_NUMBER
+CONVERSION_WITH_NUMBER	CONVERSION_WITH_NUMBER
+
+随	B-位置	B-位置	CLEAN
+便	I-位置	I-位置	CLEAN
+来	E-位置	I-位置	CLEAN
+首	O	I-位置	CLEAN
+刘	O	E-位置	CLEAN
+德	O	O	CLEAN
+华	O	O	CLEAN
+的	O	O	CLEAN
+歌	O	O	CLEAN
+CLEAN	CLEAN
+
+换	O	O	TRANSLATION
+一	O	O	TRANSLATION
+批	B-content	B-content	TRANSLATION
+TRANSLATION	TRANSLATION
+
+翻	O	O	PLAY
+译	O	O	PLAY
+秋	O	O	PLAY
+CHANGE	PLAY
+
+合	O	O	CREATE
+肥	O	O	CREATE
+是	O	O	CREATE
+在	O	O	CREATE
+安	O	O	CREATE
+徽	B-name	B-name	CREATE
+吗	I-name	E-name	CREATE
+CREATE	CREATE
+
+我	O	O	QUERY
+想	O	O	QUERY
+发	O	O	QUERY
+个	O	O	QUERY
+邮	B-song	B-song	QUERY
+件	I-song	E-song	QUERY
+给	I-song	O	QUERY
+小	I-song	O	QUERY
+明	I-song	B-category	QUERY
+，	I-song	E-category	QUERY
+让	E-song	O	QUERY
+他	O	O	QUERY
+PLAY	QUERY
+
+我	O	O	QUERY
+想	O	O	QUERY
+看	O	O	QUERY
+现	O	B-datetime_time	QUERY
+在	O	E-datetime_time	QUERY
+很	O	O	QUERY
+流	B-popularity	B-category	QUERY
+行	E-popularity	E-category	QUERY
+的	O	O	QUERY
+小	O	O	QUERY
+说	O	O	QUERY
+QUERY	QUERY
+
+下	B-name	O	QUERY
+一	I-name	O	QUERY
+个	I-name	O	QUERY
+频	E-name	B-name	QUERY
+道	O	I-name	QUERY
+QUERY	QUERY
+
+新	O	O	QUERY
+建	O	O	QUERY
+联	O	O	QUERY
+系	O	O	QUERY
+人	B-keyword	B-keyword	QUERY
+王	I-keyword	E-keyword	QUERY
+学	I-keyword	O	QUERY
+健	I-keyword	B-keyword	QUERY
+1	I-keyword	I-keyword	QUERY
+3	I-keyword	I-keyword	QUERY
+8	I-keyword	I-keyword	QUERY
+3	E-keyword	E-keyword	QUERY
+8	O	O	QUERY
+7	O	O	QUERY
+6	O	O	QUERY
+6	O	O	QUERY
+QUERY	QUERY
+
+爱	B-datetime_time	O	QUERY
+在	E-datetime_time	O	QUERY
+何	O	O	QUERY
+方	O	O	QUERY
+第	O	O	QUERY
+三	O	B-scoreDescr	QUERY
+期	O	E-scoreDescr	QUERY
+QUERY	QUERY
+
+无	B-datetime_date	B-keyword	QUERY
+锡	I-datetime_date	I-keyword	QUERY
+是	I-datetime_date	I-keyword	QUERY
+哪	E-datetime_date	E-keyword	QUERY
+个	O	O	QUERY
+省	O	O	QUERY
+的	O	O	QUERY
+省	O	O	QUERY
+会	O	O	QUERY
+城	O	O	QUERY
+市	O	O	QUERY
+QUERY	QUERY
+
+查	B-country	B-country	PLAY
+询	E-country	E-country	PLAY
+许	O	O	PLAY
+昌	B-keyword	B-category	PLAY
+到	I-keyword	E-category	PLAY
+中	I-keyword	O	PLAY
+山	I-keyword	O	PLAY
+的	I-keyword	O	PLAY
+汽	E-keyword	O	PLAY
+车	O	O	PLAY
+。	O	O	PLAY
+PLAY	PLAY
+
+最	B-timeDescr	B-datetime_date	QUERY
+近	E-timeDescr	E-datetime_date	QUERY
+有	O	O	QUERY
+什	O	O	QUERY
+么	O	O	QUERY
+好	B-scoreDescr	O	QUERY
+看	E-scoreDescr	O	QUERY
+得	O	O	QUERY
+QUERY	QUERY
+
+查	B-name	B-name	QUERY
+一	I-name	I-name	QUERY
+下	I-name	I-name	QUERY
+那	E-name	I-name	QUERY
+个	B-episode	I-name	QUERY
+南	I-episode	I-name	QUERY
+京	E-episode	I-name	QUERY
+QUERY	QUERY
+
+把	B-startLoc_area	B-startLoc_city	QUERY
+空	E-startLoc_area	E-startLoc_city	QUERY
+调	O	O	QUERY
+的	B-endLoc_city	B-endLoc_city	QUERY
+定	E-endLoc_city	E-endLoc_city	QUERY
+时	O	O	QUERY
+时	O	O	QUERY
+间	O	O	QUERY
+设	O	O	QUERY
+QUERY	QUERY
+
+查	O	O	OPEN
+询	O	O	OPEN
+一	O	O	OPEN
+下	O	O	OPEN
+南	B-name	O	OPEN
+方	E-name	O	OPEN
+OPEN	OPEN
+
+能	B-keyword	B-keyword	QUERY
+不	I-keyword	I-keyword	QUERY
+能	I-keyword	I-keyword	QUERY
+用	I-keyword	I-keyword	QUERY
+鸦	I-keyword	I-keyword	QUERY
+雀	E-keyword	E-keyword	QUERY
+无	O	O	QUERY
+声	O	O	QUERY
+造	O	O	QUERY
+个	O	O	QUERY
+句	O	O	QUERY
+子	O	O	QUERY
+QUERY	QUERY
+
+虾	O	O	QUERY
+仁	O	O	QUERY
+饭	O	B-category	QUERY
+。	B-category	I-category	QUERY
+QUERY	QUERY
+
+安	O	O	QUERY
+徽	O	O	QUERY
+有	B-startLoc_city	B-startLoc_area	QUERY
+哪	E-startLoc_city	E-startLoc_area	QUERY
+些	O	O	QUERY
+城	B-endLoc_city	B-endLoc_city	QUERY
+市	E-endLoc_city	E-endLoc_city	QUERY
+啊	O	O	QUERY
+QUERY	QUERY
+
+给	O	O	PLAY
+张	O	O	PLAY
+大	O	O	PLAY
+萍	O	O	PLAY
+发	O	O	PLAY
+短	O	B-name	PLAY
+信	S-name	E-name	PLAY
+PLAY	PLAY
+
+查	B-位置	B-位置	CLEAN
+询	I-位置	E-位置	CLEAN
+临	E-位置	O	CLEAN
+沂	O	O	CLEAN
+到	O	O	CLEAN
+济	O	O	CLEAN
+南	O	O	CLEAN
+的	O	O	CLEAN
+CLEAN	CLEAN
+
+打	B-name	O	QUERY
+电	I-name	O	QUERY
+话	E-name	O	QUERY
+QUERY	QUERY
+
+新	O	O	CREATE
+建	O	O	CREATE
+联	O	O	CREATE
+系	O	O	CREATE
+人	O	O	CREATE
+王	B-name	B-name	CREATE
+艺	I-name	E-name	CREATE
+文	E-name	O	CREATE
+号	O	O	CREATE
+码	O	O	CREATE
+6	B-code	B-code	CREATE
+4	I-code	I-code	CREATE
+5	I-code	I-code	CREATE
+1	I-code	I-code	CREATE
+8	I-code	I-code	CREATE
+0	I-code	I-code	CREATE
+3	E-code	E-code	CREATE
+CREATE	CREATE
+
+给	B-category	B-area	QUERY
+我	I-category	E-area	QUERY
+看	I-category	B-category	QUERY
+嘟	E-category	E-category	QUERY
+拉	O	O	QUERY
+三	O	O	QUERY
+字	B-name	B-name	QUERY
+经	I-name	I-name	QUERY
+QUERY	QUERY
+
+可	O	O	PLAY
+以	O	O	PLAY
+帮	O	O	PLAY
+我	O	O	PLAY
+把	B-song	B-song	PLAY
+没	E-song	I-song	PLAY
+有	O	E-song	PLAY
+回	O	O	PLAY
+复	O	O	PLAY
+的	O	O	PLAY
+PLAY	PLAY
+
+给	O	O	QUERY
+我	O	O	QUERY
+来	O	O	QUERY
+一	O	O	QUERY
+段	O	O	QUERY
+群	B-category	B-actor	QUERY
+口	I-category	E-actor	QUERY
+相	I-category	B-category	QUERY
+声	E-category	E-category	QUERY
+吧	O	O	QUERY
+QUERY	QUERY
+
+新	B-room	B-room	SET
+建	E-room	E-room	SET
+联	O	O	SET
+系	O	O	SET
+人	O	B-attr	SET
+姓	O	I-attr	SET
+名	B-attrValue	I-attr	SET
+小	E-attrValue	E-attr	SET
+SET	SET
+
+告	B-film	O	QUERY
+诉	I-film	O	QUERY
+我	E-film	O	QUERY
+1	O	O	QUERY
+磅	O	O	QUERY
+有	O	O	QUERY
+多	O	O	QUERY
+少	O	O	QUERY
+SCORE_QUERY	QUERY
+
+帮	O	O	SET_CLOCK
+我	O	O	SET_CLOCK
+查	B-日期	B-日期	SET_CLOCK
+一	I-日期	I-日期	SET_CLOCK
+下	E-日期	I-日期	SET_CLOCK
+杭	O	O	SET_CLOCK
+州	O	O	SET_CLOCK
+到	O	O	SET_CLOCK
+SET_CLOCK	SET_CLOCK
+
+宫	B-city	B-city	QUERY
+外	E-city	E-city	QUERY
+孕	B-datetime_date	B-datetime_date	QUERY
+怎	E-datetime_date	E-datetime_date	QUERY
+么	O	O	QUERY
+办	B-subfocus	O	QUERY
+？	I-subfocus	O	QUERY
+QUERY	QUERY
+
+小	O	O	ROUTE
+时	B-endLoc_poi	B-endLoc_city	ROUTE
+代	I-endLoc_poi	I-endLoc_city	ROUTE
+的	I-endLoc_poi	E-endLoc_city	ROUTE
+影	E-endLoc_poi	O	ROUTE
+ROUTE	ROUTE
+
+万	B-name	B-name	RISERATE_QUERY
+年	I-name	I-name	RISERATE_QUERY
+历	I-name	I-name	RISERATE_QUERY
+帮	E-name	I-name	RISERATE_QUERY
+我	O	I-name	RISERATE_QUERY
+查	O	E-name	RISERATE_QUERY
+询	O	O	RISERATE_QUERY
+下	O	O	RISERATE_QUERY
+RISERATE_QUERY	RISERATE_QUERY
+
